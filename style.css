@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #2c3e50; /* لون كحلي رمادي هادئ */
-    --accent-color: #c5a059;  /* لون ذهبي مطفي */
+    --primary-color: #2c3e50; 
+    --accent-color: #c5a059;  
     --text-color: #333;
     --light-bg: #f8f9fa;
     --transition: all 0.4s ease-in-out;
@@ -29,8 +29,6 @@ body {
     max-width: 1200px;
     margin: auto;
 }
-
-/* Header Styling */
 header {
     background: rgba(255, 255, 255, 0.95);
     padding: 15px 0;
@@ -113,8 +111,6 @@ header {
     font-size: 1.5rem;
     cursor: pointer;
 }
-
-/* Hero Section Styling */
 .hero {
     height: 100vh;
     display: flex;
@@ -133,7 +129,7 @@ header {
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('images/bg.jpg'); /* صورة تعبيرية للمقاولات */
+                url('images/bg.jpg'); 
     background-size: cover;
     background-position: center;
     filter: blur(2px);
@@ -193,17 +189,13 @@ header {
     background: #fff;
     color: var(--primary-color);
 }
-
-/* Keyframes for Animations */
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
-/* Mobile Responsive */
 @media (max-width: 768px) {
     .btn-call {
-        display: none; /* إخفاء زر الاتصال في الموبايل كما طلبتِ */
+        display: none; 
     }
 
     .menu-icon {
@@ -213,7 +205,7 @@ header {
 
     .nav-bar {
         position: fixed;
-        top: -100%; /* تبدأ من فوق */
+        top: -100%; 
         right: 0;
         width: 100%;
         background: #fff;
@@ -254,10 +246,9 @@ header {
         align-items: center;
     }
 }
-/* About Section Styling */
 .about {
     padding: 100px 0;
-    background-color: var(--light-bg); /* اللون الهادئ اللي اخترناه */
+    background-color: var(--light-bg); 
     overflow: hidden;
 }
 
@@ -267,8 +258,6 @@ header {
     gap: 60px;
     flex-wrap: wrap;
 }
-
-/* تصميم الصورة وحركتها */
 .about-image-container {
     flex: 1;
     position: relative;
@@ -307,8 +296,6 @@ header {
     z-index: 0;
     animation: float 4s infinite ease-in-out;
 }
-
-/* تصميم الكلام */
 .about-content {
     flex: 1.2;
     min-width: 350px;
@@ -358,14 +345,10 @@ header {
     color: var(--accent-color);
     font-size: 1.3rem;
 }
-
-/* Animations */
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
-
-/* Responsive fixes for About section */
 @media (max-width: 768px) {
     .about-wrapper {
         flex-direction: column;
@@ -385,13 +368,9 @@ header {
         font-size: 1.8rem;
     }
 }
-/* =========================================
-   تعديل سكشن الخدمات - الألوان المتناسقة
-   ========================================= */
-
 .services {
     padding: 100px 0;
-    background-color: #151921; /* الرمادي الغامق الأساسي للموقع */
+    background-color: #151921; 
     position: relative;
     overflow: hidden;
 }
@@ -406,7 +385,7 @@ header {
 }
 
 .section-desc {
-    color: #a0aab4; /* رمادي فاتح متناسق مع الخلفية */
+    color: #a0aab4; 
     max-width: 600px;
     margin: 10px auto;
 }
@@ -416,11 +395,9 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
-
-/* تصميم الكارت الاحترافي الجديد */
 .service-card {
-    background: #1e242d; /* لون أفتح قليلاً من الخلفية لإبراز الكارت */
-    border: 1px solid rgba(197, 160, 89, 0.15); /* حدود بلمسة ذهبية هادئة */
+    background: #1e242d; 
+    border: 1px solid rgba(197, 160, 89, 0.15); 
     padding: 40px 30px;
     border-radius: 20px;
     position: relative;
@@ -429,8 +406,6 @@ header {
     cursor: pointer;
     z-index: 1;
 }
-
-/* تأثير الـ Hover الذهبي */
 .service-card::before {
     content: '';
     position: absolute;
@@ -452,10 +427,8 @@ header {
 
 .service-card:hover::before {
     height: 100%;
-    opacity: 0.15; /* توهج ذهبي خفيف عند الوقوف */
+    opacity: 0.15; 
 }
-
-/* الأيقونة */
 .card-icon {
     width: 70px;
     height: 70px;
@@ -470,7 +443,7 @@ header {
 
 .card-icon i {
     font-size: 2rem;
-    color: #c5a059; /* لون ذهبي مطفي */
+    color: #c5a059; 
 }
 
 .service-card:hover .card-icon {
@@ -480,8 +453,6 @@ header {
 .service-card:hover .card-icon i {
     color: #fff;
 }
-
-/* النصوص داخل الكارت */
 .service-card h3 {
     color: #ffffff;
     font-size: 1.5rem;
@@ -503,14 +474,12 @@ header {
 .service-card:hover p {
     color: #fff;
 }
-
-/* الأيقونة الشفافة في الخلفية */
 .card-bg-icon {
     position: absolute;
     bottom: -20px;
     left: -20px;
     font-size: 8rem;
-    color: rgba(255, 255, 255, 0.03); /* شفافة جداً */
+    color: rgba(255, 255, 255, 0.03); 
     transition: 0.5s;
     z-index: -1;
 }
@@ -520,7 +489,6 @@ header {
     color: rgba(197, 160, 89, 0.05);
 }
 
-/* التوهج الخلفي للسكشن (Radial Glow) */
 .services::after {
     content: '';
     position: absolute;
@@ -532,7 +500,6 @@ header {
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
-/* Portfolio Section */
 .portfolio {
     padding: 100px 0;
     background-color: #fff;
@@ -542,8 +509,6 @@ header {
     text-align: center;
     margin-bottom: 50px;
 }
-
-/* أزرار الفلترة */
 .filter-controls {
     display: flex;
     justify-content: center;
@@ -566,11 +531,9 @@ header {
     background: var(--primary-color);
     color: #fff;
 }
-
-/* الـ Grid الأساسي (3 أعمدة) */
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة متساوية */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     transition: all 0.5s ease;
 }
@@ -579,7 +542,7 @@ header {
     position: relative;
     border-radius: 15px;
     overflow: hidden;
-    height: 300px; /* توحيد الطول عشان الشكل يبقا مرتب */
+    height: 300px; 
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     animation: fadeIn 0.5s ease-in;
 }
@@ -587,11 +550,9 @@ header {
 .portfolio-item img, .portfolio-item video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* يخلي الصورة تملأ المربع بدون تمطيط */
+    object-fit: cover; 
     transition: transform 0.5s ease;
 }
-
-/* تأثير عند الوقوف بالماوس */
 .portfolio-item:hover img {
     transform: scale(1.1);
 }
@@ -626,32 +587,27 @@ header {
     font-size: 0.8rem;
     font-weight: bold;
 }
-
-/* الأنميشن الخاص بالإخفاء والظهور عند الفلترة */
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
     to { opacity: 1; transform: scale(1); }
 }
-
-/* Responsive */
 @media (max-width: 992px) {
     .portfolio-grid {
-        grid-template-columns: repeat(2, 1fr); /* عمودين في التابلت */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
 @media (max-width: 768px) {
     .portfolio-grid {
-        grid-template-columns: repeat(1, 1fr); /* عمود واحد في الموبايل */
+        grid-template-columns: repeat(1, 1fr); 
     }
     .portfolio-item {
         height: 250px;
     }
 }
-/* Why Us Section Styling */
 .why-us {
     padding: 100px 0;
-    background: linear-gradient(135deg, #d4d4d6 0%, #c3c5c6 100%); /* خلفية هادئة مش بيضاء */
+    background: linear-gradient(135deg, #d4d4d6 0%, #c3c5c6 100%); 
     position: relative;
     overflow: hidden;
 }
@@ -740,8 +696,6 @@ header {
     line-height: 1.7;
     font-size: 1rem;
 }
-
-/* رقم الخطوة بشكل جمالي */
 .card-step {
     position: absolute;
     top: 20px;
@@ -756,8 +710,6 @@ header {
     color: rgba(197, 160, 89, 0.1);
     transform: scale(1.2);
 }
-
-/* الأنميشن الخاص بالسكشن */
 .why-card {
     opacity: 0;
     transform: translateY(30px);
@@ -767,12 +719,9 @@ header {
     opacity: 1;
     transform: translateY(0);
 }
-/* =========================================
-   1. سكشن تواصل معنا (Contact Section)
-   ========================================= */
 .contact {
     padding: 100px 0;
-    background: #151921; /* الرمادي الغامق الأساسي للموقع */
+    background: #151921; 
     position: relative;
     overflow: hidden;
 }
@@ -784,10 +733,8 @@ header {
     margin-top: 50px;
     flex-wrap: wrap;
 }
-
-/* تصميم الكروت */
 .contact-info-card, .contact-form-card {
-    background: #1e242d; /* لون أفتح قليلاً للبروز */
+    background: #1e242d; 
     padding: 40px;
     border-radius: 20px;
     flex: 1;
@@ -841,8 +788,6 @@ header {
     font-size: 0.85rem;
     font-weight: bold;
 }
-
-/* تصميم الفورم (Input Fields) */
 .input-group {
     margin-bottom: 20px;
 }
@@ -850,7 +795,7 @@ header {
 .input-group input, .input-group select, .input-group textarea {
     width: 100%;
     padding: 15px;
-    background: #282e39; /* لون الحقول متناسق مع الكارت */
+    background: #282e39; 
     border: 1px solid #363e4a;
     border-radius: 10px;
     color: #fff;
@@ -863,8 +808,6 @@ header {
     border-color: #c5a059;
     background: #2d3542;
 }
-
-/* زر الإرسال (واتساب) */
 .btn-submit {
     width: 100%;
     padding: 15px;
@@ -887,12 +830,8 @@ header {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
 }
-
-/* =========================================
-   2. الفوتر (Footer Styles)
-   ========================================= */
 .main-footer {
-    background: #0d1117; /* أغمق درجة لختم الموقع */
+    background: #0d1117; 
     color: #fff;
     padding: 80px 0 0;
     border-top: 2px solid #c5a059;
@@ -966,8 +905,6 @@ header {
 .contact-info i {
     color: #c5a059;
 }
-
-/* الجزء السفلي من الفوتر */
 .footer-bottom {
     background: #080a0e;
     padding: 25px 0;
@@ -992,10 +929,6 @@ header {
     color: #ffffff;
     text-shadow: 0 0 10px #c5a059;
 }
-
-
-
-/* أنميشن النبض */
 @keyframes pulse-effect {
     0% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0.4); }
     70% { box-shadow: 0 0 0 20px rgba(197, 160, 89, 0); }
@@ -1005,8 +938,6 @@ header {
 .float-btn {
     animation: pulse-effect 2s infinite;
 }
-
-/* التجاوب للموبايل */
 @media (max-width: 768px) {
     .contact-wrapper {
         flex-direction: column;
@@ -1023,7 +954,6 @@ header {
         height: 55px;
     }
 }
-/* الأزرار العائمة Floating Action Buttons */
 .floating-actions {
 position: fixed;
 bottom: 30px;
@@ -1074,7 +1004,6 @@ background: #25d366;
 .phone {
 background: var(--primary-color);
 }
-/* أنميشن بسيط للأزرار */
 @keyframes pulse {
 0% { transform: scale(1); }
 50% { transform: scale(1.05); }
@@ -1083,14 +1012,13 @@ background: var(--primary-color);
 .float-btn {
 animation: pulse 2s infinite;
 }
-/* الموبايل */
 @media (max-width: 768px) {
 .floating-actions {
 bottom: 20px;
 left: 20px;
 }
 .float-btn:hover {
-    width: 60px; /* نلغي التمدد في الموبايل عشان مياخدش مساحة */
+    width: 60px;
 }
 
 .float-btn span {
