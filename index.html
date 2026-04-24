@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أسيل للمقاولات العامة - إبداع في التنفيذ</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-hard-hat"></i>
+                <span>أسيل للمقاولات</span>
+            </div>
+
+            <nav class="nav-bar" id="navLinks">
+                <div class="close-menu" id="closeMenu"><i class="fas fa-times"></i></div>
+                <ul>
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#portfolio">معرض أعمالنا</a></li>
+                    <li><a href="#why-us">لماذا نحن</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-btns">
+                <a href="tel:0537445483" class="btn-call">
+                    <i class="fas fa-phone-alt"></i> 0537445483
+                </a>
+                <div class="menu-icon" id="menuIcon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content container">
+            <h1 class="animate-text">إبداع يتجاوز الحدود في عالم المقاولات والتشطيبات</h1>
+            <p class="animate-p">من الدهانات الفاخرة والإيبوكسي إلى الديكورات العصرية وبدائل الرخام، نصنع من مساحتك لوحة فنية متكاملة بأيدي خبراء أسيل.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">اكتشف خدماتنا</a>
+                <a href="#contact" class="btn btn-secondary">تواصل معنا</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container about-wrapper">
+            <!-- الجزء الخاص بالصورة -->
+            <div class="about-image-container">
+                <div class="image-border"></div>
+                <img src="images/about.png" alt="شركة أسيل للمقاولات" class="reveal-img">
+                <!-- لمسات ديكورية خلف الصورة بدل كروت الخبرة -->
+                <div class="floating-shape"></div>
+            </div>
+
+            <!-- الجزء الخاص بالكلام -->
+            <div class="about-content">
+                <span class="sub-title">تعرف علينا</span>
+                <h2 class="section-title">شركة أسيل للمقاولات العامة.. ريادة، إتقان، وابتكار</h2>
+                <p class="about-description">
+                    في <strong>أسيل للمقاولات</strong>، لا نبني جدراناً فحسب، بل نصنع بيئة تعكس ذوقك الرفيع. نحن شركة متخصصة في تقديم حلول هندسية وفنية متكاملة، بدأت رحلتنا بشغف لتطوير قطاع المقاولات والتشطيبات في المملكة.
+                </p>
+                <p class="about-description">
+                    نتميز بتقديم خدمات احترافية تشمل الدهانات الداخلية والخارجية بأحدث التقنيات، وتركيب بدائل الرخام والخشب والشيبورد التي تضفي لمسة عصرية. كما نفخر بخبرتنا في عزل الإيبوكسي وتخطيط المواقف، مع فريق متكامل لأعمال السباكة والكهرباء لضمان استلام مشروعك "على المفتاح".
+                </p>
+                
+                <ul class="about-features">
+                    <li><i class="fas fa-shield-alt"></i> جودة تنفيذ تضمن لك الاستدامة.</li>
+                    <li><i class="fas fa-paint-roller"></i> لمسات ديكورية عصرية (بديل الرخام والخشب).</li>
+                    <li><i class="fas fa-tools"></i> فريق عمل محترف ومدرب على أعلى المستويات.</li>
+                    <li><i class="fas fa-calendar-check"></i> التزام تام بالمواعيد ودقة في التفاصيل.</li>
+                </ul>
+
+                <div class="about-btn-area">
+                    <a href="#contact" class="btn btn-primary">اطلب استشارتك الان</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <span class="sub-title">ماذا نقدم؟</span>
+                <h2 class="section-title white">خدماتنا الاحترافية</h2>
+                <p class="section-desc">نجمع بين الفن والهندسة لنقدم لكم باقة متكاملة من خدمات المقاولات والتشطيبات العصرية.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- الخدمة 1 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>الدهانات والطلاء</h3>
+                    <p>دهانات داخلية وخارجية متعددة الطبقات بأجود أنواع المواد العالمية التي تدوم طويلاً.</p>
+                    <div class="card-bg-icon"><i class="fas fa-paint-roller"></i></div>
+                </div>
+
+                <!-- الخدمة 2 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>الإيبوكسي والأرضيات</h3>
+                    <p>تنفيذ أرضيات الإيبوكسي للمصانع والمنازل، وتخطيط مواقف السيارات بدقة هندسية.</p>
+                    <div class="card-bg-icon"><i class="fas fa-layer-group"></i></div>
+                </div>
+
+                <!-- الخدمة 3 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>الديكورات العصرية</h3>
+                    <p>تركيب بديل الخشب، بديل الشيبورد، وبديل الرخام لإضفاء لمسة فخامة فورية لمساحتك.</p>
+                    <div class="card-bg-icon"><i class="fas fa-couch"></i></div>
+                </div>
+
+                <!-- الخدمة 4 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-umbrella"></i>
+                    </div>
+                    <h3>السواتر والمظلات</h3>
+                    <p>تصميم وتوريد وتركيب كافة أنواع المظلات والسواتر بأشكال عصرية ومقاومة للظروف الجوية.</p>
+                    <div class="card-bg-icon"><i class="fas fa-umbrella"></i></div>
+                </div>
+
+                <!-- الخدمة 5 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>كهرباء وسباكة</h3>
+                    <p>تأسيس وتشطيب أعمال السباكة والكهرباء بأعلى معايير الأمان والجودة العالمية.</p>
+                    <div class="card-bg-icon"><i class="fas fa-bolt"></i></div>
+                </div>
+
+                <!-- الخدمة 6 -->
+                <div class="service-card">
+                    <div class="card-icon">
+                        <i class="fas fa-check-double"></i>
+                    </div>
+                    <h3>تشطيب متكامل</h3>
+                    <p>خدمات التشطيب "على المفتاح" تشمل كافة المراحل من التأسيس حتى اللمسات النهائية.</p>
+                    <div class="card-bg-icon"><i class="fas fa-check-double"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="portfolio-header">
+            <span class="sub-title">سابقة أعمالنا</span>
+            <h2 class="section-title">معرض المشاريع المنفذة</h2>
+            <p class="section-desc">نفتخر باستعراض جزء من لمساتنا الإبداعية في المواقع</p>
+            
+            <!-- أزرار الفلترة -->
+            <div class="filter-controls">
+                <button class="control active" data-filter="all">الكل</button>
+                <button class="control" data-filter="photo">الصور الفوتوغرافية</button>
+                <button class="control" data-filter="video">فيديوهات التنفيذ</button>
+            </div>
+        </div>
+
+        <div class="portfolio-grid">
+            
+            <!-- مجموعة 2.32.10 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.10 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.10 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.10 PM (2).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+
+            <!-- مجموعة 2.32.11 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.11 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.11 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.11 PM (2).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            
+
+            <!-- مجموعة 2.32.12 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.12 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.12 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.12 PM (2).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+
+            <!-- مجموعة 2.32.13 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.13 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.13 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+
+            <!-- صورة 2.32.21 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.21 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+
+            <!-- مجموعة 2.32.22 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.22 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.22 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.22 PM (2).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+
+            <!-- مجموعة 2.32.23 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.23 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.23 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.23 PM (2).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.23 PM (3).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+
+            <!-- الفيديو الثاني -->
+            <div class="portfolio-item video">
+                <video controls>
+                    <source src="images/WhatsApp Video 2026-04-22 at 2.32.24 PM.mp4" type="video/mp4">
+                </video>
+                <div class="video-label"><i class="fas fa-play"></i> فيديو الموقع</div>
+            </div>
+
+            <!-- مجموعة 2.32.24 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.24 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.24 PM (1).jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            
+            <!-- صورة 2.32.25 وصورة 2.33.03 -->
+            <div class="portfolio-item photo">
+                <img src="images/WhatsApp Image 2026-04-22 at 2.32.25 PM.jpeg" alt="أسيل للمقاولات">
+                <div class="overlay"><i class="fas fa-search-plus"></i></div>
+            </div>
+            
+
+        </div>
+    </div>
+</section>
+<!-- Why Us Section -->
+<section class="why-us" id="why-us">
+    <div class="container">
+        <div class="why-us-header">
+            <span class="sub-title">لماذا تختارنا؟</span>
+            <h2 class="section-title">سر تميز شركة أسيل للمقاولات</h2>
+            <p class="section-desc">نحن لا نقدم مجرد خدمات، نحن نبني علاقة ثقة تمتد لسنوات من خلال إتقان العمل.</p>
+        </div>
+
+        <div class="why-us-grid">
+            <!-- ميزة 1 -->
+            <div class="why-card">
+                <div class="why-icon-box">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <h3>خامات عالمية</h3>
+                <p>نستخدم أفضل بدائل الرخام والخشب والشيبورد بمواصفات تقاوم الرطوبة والحرارة لضمان عمر أطول لديكورك.</p>
+                <div class="card-step">01</div>
+            </div>
+
+            <!-- ميزة 2 -->
+            <div class="why-card">
+                <div class="why-icon-box">
+                    <i class="fas fa-users-cog"></i>
+                </div>
+                <h3>فريق متكامل</h3>
+                <p>تكامل مذهل بين مهندسي الديكور، الفنيين، والسباكين والكهربائيين لضمان تنفيذ المشروع بدقة متناهية.</p>
+                <div class="card-step">02</div>
+            </div>
+
+            <!-- ميزة 3 -->
+            <div class="why-card">
+                <div class="why-icon-box">
+                    <i class="fas fa-swatchbook"></i>
+                </div>
+                <h3>تشطيبات عصرية</h3>
+                <p>نواكب أحدث صيحات الموضة في عالم الدهانات الداخلية والخارجية وتنسيق الألوان لنجعل منزلك لوحة فنية.</p>
+                <div class="card-step">03</div>
+            </div>
+
+            <!-- ميزة 4 -->
+            <div class="why-card">
+                <div class="why-icon-box">
+                    <i class="fas fa-stopwatch"></i>
+                </div>
+                <h3>التزام بالمواعيد</h3>
+                <p>الوقت عندنا مقدس؛ نلتزم بجدول زمني صارم لتسليم مشاريعنا في الموعد المحدد دون المساس بجودة العمل.</p>
+                <div class="card-step">04</div>
+            </div>
+
+            <!-- ميزة 5 -->
+            <div class="why-card">
+                <div class="why-icon-box">
+                    <i class="fas fa-shield-virus"></i>
+                </div>
+                <h3>حلول هندسية</h3>
+                <p>خبرة واسعة في عزل الإيبوكسي وتخطيط المواقف وتنفيذ السواتر والمظلات بأساليب هندسية متطورة.</p>
+                <div class="card-step">05</div>
+            </div>
+
+            <!-- ميزة 6 -->
+            <div class="why-card">
+                <div class="why-icon-box">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <h3>أسعار تنافسية</h3>
+                <p>نقدم أعلى مستويات الجودة بأفضل الأسعار المدروسة لتناسب ميزانيتك مع توفير خيارات تقسيط وتشطيب متكامل.</p>
+                <div class="card-step">06</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-header">
+            <span class="sub-title">تواصل مباشر</span>
+            <h2 class="section-title white">طلب خدمة أو استفسار</h2>
+            <p class="section-desc">فريق أسيل للمقاولات جاهز لخدمتكم وتحويل رؤيتكم إلى واقع.</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- الكارد الأول: معلومات التواصل -->
+            <div class="contact-info-card reveal-left">
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-text">
+                        <h4>العنوان</h4>
+                        <p>الرياض - المملكة العربية السعودية</p>
+                        <span class="area-badge">نخدم شمال وشرق الرياض</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="info-text">
+                        <h4>اتصل بنا</h4>
+                        <a href="tel:0537445483" class="contact-link">0537445483</a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="info-text">
+                        <h4>واتساب</h4>
+                        <a href="https://wa.me/966537445483" target="_blank" class="contact-link">إرسال رسالة فورية</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!-- الكارد الثاني: فورم طلب الخدمة -->
+            <div class="contact-form-card reveal-right">
+                <form id="whatsappForm">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="الاسم الكريم" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="tel" id="phone" placeholder="رقم الجوال" required>
+                    </div>
+                    <div class="input-group">
+                        <select id="service" required>
+                            <option value="" disabled selected>اختر الخدمة المطلوبة</option>
+                            <option value="دهانات داخلية وخارجية">دهانات داخلية وخارجية</option>
+                            <option value="إيبوكسي وتخطيط مواقف">إيبوكسي وتخطيط مواقف</option>
+                            <option value="ديكورات (بديل رخام/خشب)">ديكورات (بديل رخام/خشب)</option>
+                            <option value="سواتر ومظلات">سواتر ومظلات</option>
+                            <option value="سباكة وكهرباء">سباكة وكهرباء</option>
+                            <option value="تشطيب متكامل">تشطيب متكامل</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" placeholder="تفاصيل المشروع..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                        إرسال عبر الواتساب <i class="fab fa-whatsapp"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer class="main-footer">
+    <div class="container footer-grid">
+        <!-- عمود 1: عن الشركة -->
+        <div class="footer-col about-company">
+            <div class="logo">
+                <i class="fas fa-hard-hat"></i>
+                <span>أسيل للمقاولات</span>
+            </div>
+            <p>نحن رواد في مجال المقاولات والتشطيبات بالرياض، نسعى دائماً لتقديم أعلى جودة في الدهانات والديكورات العصرية والحلول الهندسية المتكاملة.</p>
+        </div>
+
+        <!-- عمود 2: روابط سريعة -->
+        <div class="footer-col">
+            <h3>روابط سريعة</h3>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#portfolio">معرض أعمالنا</a></li>
+                <li><a href="#why-us">لماذا نحن</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </div>
+
+        <!-- عمود 3: خدماتنا -->
+        <div class="footer-col">
+            <h3>خدماتنا</h3>
+            <ul>
+                <li><a href="#services">دهانات داخلية وخارجية</a></li>
+                <li><a href="#services">إيبوكسي وتخطيط مواقف</a></li>
+                <li><a href="#services">بديل الرخام والخشب</a></li>
+                <li><a href="#services">سواتر ومظلات</a></li>
+                <li><a href="#services">تشطيب متكامل</a></li>
+            </ul>
+        </div>
+
+        <!-- عمود 4: تواصل معنا -->
+        <div class="footer-col">
+            <h3>بيانات التواصل</h3>
+            <div class="contact-info">
+                <p><i class="fas fa-phone-alt"></i> 0537445483</p>
+                <p><i class="fab fa-whatsapp"></i> 0537445483</p>
+                <p><i class="fas fa-map-marker-alt"></i> الرياض، السعودية</p>
+                <p><i class="fas fa-envelope"></i> info@aseel-const.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- الجزء السفلي للحقوق والمبرمج -->
+    <div class="footer-bottom">
+        <div class="container">
+            <p>جميع الحقوق محفوظة © 2026 لشركة أسيل للمقاولات العامة</p>
+            <p class="dev-credit">تصميم وبرمجة 
+                <a href="https://www.facebook.com/share/17UzqgSwiu/" target="_blank">GMTWeb</a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- الأزرار العائمة (Floating Buttons) -->
+<div class="floating-actions">
+    <a href="https://wa.me/966537445483" class="float-btn whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>راسلنا</span>
+    </a>
+    <a href="tel:0537445483" class="float-btn phone">
+        <i class="fas fa-phone-alt"></i>
+        <span>اتصل بنا</span>
+    </a>
+</div>
+    <!-- باقي السكاشن سيتم إضافتها هنا لاحقاً -->
+
+    <script src="script.js"></script>
+</body>
+</html>
